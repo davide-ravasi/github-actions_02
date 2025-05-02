@@ -1,4 +1,4 @@
-name: test lint and deploy project
+name: details on opend issue
 on:
   issues:
     types: [opened]
