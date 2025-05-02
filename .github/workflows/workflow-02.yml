@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependencies
         run: npm ci
-      - name:
+      - name: echo event details
         run: echo ${{github.event}}
 #   lint:
 #     runs-on: ubuntu-latest
